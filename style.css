@@ -52,16 +52,18 @@ min-width: 200px;
 .one {
 width: 50%;
 text-align: center;
+
 }
 .two {
 	width: 50%;
 	text-align: center;
+
 }
 .three {
 	width: 50%;
 	float: left;
-	margin-left: 20px;
-	margin-top: -30px;
+	margin-left: 50px;
+	margin-top: -50px;
 }
 .four {
 	float: right;
@@ -108,3 +110,17 @@ margin-top: 200;
 .h2 {
  margin-left: 20px;
 }
+.list {
+	margin: -15px 50px 0px 0px;
+}
+.h3 {
+	text-align: center;
+}
+
+@media (max-width:(500px) {
+	.resume h1 ul{
+	 display: block;
+	}
+	.resume ul{
+		float: none;
+	}
